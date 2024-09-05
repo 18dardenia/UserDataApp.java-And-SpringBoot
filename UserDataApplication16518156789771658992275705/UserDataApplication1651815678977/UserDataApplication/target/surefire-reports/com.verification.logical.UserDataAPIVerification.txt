@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.verification.logical.UserDataAPIVerification
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.929 s <<< FAILURE! - in com.verification.logical.UserDataAPIVerification
+addUser  Time elapsed: 0.332 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <201> but was: <404>
+	at com.verification.logical.UserDataAPIVerification.addUser(UserDataAPIVerification.java:71)
+
+getDetailsByUserName  Time elapsed: 0.045 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <200> but was: <404>
+	at com.verification.logical.UserDataAPIVerification.getDetailsByUserName(UserDataAPIVerification.java:106)
+

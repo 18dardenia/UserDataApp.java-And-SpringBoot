@@ -1,0 +1,39 @@
+-------------------------------------------------------
+Valid Data for add user
+-------------------------------------------------------
+    {
+        "userName": "Ronald",
+        "password":"Ronald1234",
+        "phoneNo": 9658045612,
+        "city": "Mumbai"
+    } 
+
+--------------------------------------------------------
+Invalid Data for add userss (Validator Validation)
+--------------------------------------------------------
+     {
+        "userName": "Ronald",
+        "password":"Ronald12",
+        "phoneNo": 9658045612,
+        "city": "Mumbai"
+    } 
+
+------------------------------------------------------
+Valid Data for get user details by user name
+------------------------------------------------------
+http://localhost:8765/api/user/Chris
+
+
+------------------------------------------------------
+Invalid Data for get user details by user name
+------------------------------------------------------
+http://localhost:8765/api/user/Prince
+ 
+ 
+
+
+
+
+
+
+ 

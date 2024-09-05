@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.verification.structural.UserVerification
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 2, Errors: 2, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.verification.structural.UserVerification
+annotations$TableMapping  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.verification.structural.UserVerification.annotations$TableMapping(UserVerification.java:49)
+
+attributes$UserIdAttributeIdAnnotation  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.verification.structural.UserVerification.attributes$UserIdAttributeIdAnnotation(UserVerification.java:94)
+
+attributes$UserIdAttributeGeneratedValueAnnotation  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.verification.structural.UserVerification.attributes$UserIdAttributeGeneratedValueAnnotation(UserVerification.java:105)
+
+annotations$EntityAnnotation  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.verification.structural.UserVerification.annotations$EntityAnnotation(UserVerification.java:28)
+
